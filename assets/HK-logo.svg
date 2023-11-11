@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="62.449" viewBox="0 0 100 62.449">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.067" y1="1.083" x2="0.149" y2="0.14" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8b721d"/>
+      <stop offset="0.5" stop-color="#f2c536"/>
+      <stop offset="1" stop-color="#8a6e02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.912" y1="0.62" x2="-0.52" y2="-0.323" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="HK-logo" transform="translate(-3.83 -1.84)">
+    <path id="Path_1" data-name="Path 1" d="M18.727,31.993H51.556V10.227c0-5.89-2.317-7.941-5.977-7.941V1.84H66.454v.446c-3.66,0-5.977,2.051-5.977,7.941V55.9c0,5.89,2.317,7.941,5.977,7.941v.446H45.579v-.446c3.66,0,5.977-2.051,5.977-7.941V33.064H18.727V55.9c0,5.89,2.317,7.941,5.977,7.941v.446H3.83v-.446c3.66,0,5.977-2.051,5.977-7.941V10.227c0-5.89-2.317-7.941-5.977-7.941V1.84H24.7v.446c-3.66,0-5.977,2.051-5.977,7.941Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <path id="Path_2" data-name="Path 2" d="M141.238,28.066l17.127,22.75c7.761,10.258,12.934,13.026,15.789,13.026v.446c-12.488,0-17.665-.446-23.463-8.207L134.01,33.69l18.2-17.573c6.244-5.977,2.943-13.559-5.444-13.831V1.84h21.5v.446Z" transform="translate(-70.324 0)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

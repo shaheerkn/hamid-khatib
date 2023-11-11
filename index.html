@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hamid Khatib</title>
+</head>
+<body>
+  <header>
+    <img src="/assets/HK-logo.svg" alt="img" aria-hidden="true">
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="col img-col">
+          <img src="/assets/hero-img.png" alt="img" aria-hidden="true">
+        </div>
+        <div class="col content-col">
+          <h1 class="main-title">
+            <p>Hamid <span></span> </p>
+            <p><span class="rotate"></span> Khatib </p>
+          </h1>
+          <p class="hero-description">Pushing for positive changes and growth</p>
+
+          <div class="hero-scroll">
+            <p>Scroll down for more info</p>
+            <a href="#about"><img src="/assets/Arrows.png" alt="" srcset=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h3 class="section-subheading">WHO WE ARE</h3>
+        <h2 class="section-heading">An innovative company investing in diverse ventures globally, fostering entrepreneurial growth and innovation.</h2>
+        <p class="section-desc">Our mission is to support new creative ideas and young entrepreneurs with innovative business concepts. With investments in ventures like Consiglio lounge in Lebanon, Mentes, Biopharma in UAE, Autobuchs in Switzerland, and Khatib Jewelry in Istanbul, we prioritize honesty, reliability, and ethical business practices.</p>
+        <p class="section-desc">We actively encourage creativity and progress in various sectors, aiming for positive changes and growth within the industry. Our dedication to these values has made us a significant figure in the investment world, inspiring and supporting aspiring entrepreneurs and investors.</p>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide about-slide">
+               <h3>PERSONAL INVESTMENTS</h3>
+               <div class="about-slide-container">
+                  <div class="about-slide-col">
+                    <img src="/assets/mentas.png" alt="" class="about-slide-logo" aria-hidden="true">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <a href="#">View project <img src="/assets/Arrow-icon.png" alt="arrow" srcset=""></a>
+                  </div>
+
+                  <img src="/assets/Seperator.png" alt="img" class="slide-seprator">
+
+                  <div class="about-slide-col">
+                     <img src="/assets/consig.png" alt="" class="about-slide-logo">
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <a href="#">View project <img src="/assets/Arrow-icon.png" alt="arrow" aria-hidden="true"></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide about-slide">
+               <h3>PERSONAL INVESTMENTS</h3>
+               <div class="about-slide-container">
+                  <div class="about-slide-col">
+                    <img src="/assets/mentas.png" alt="" class="about-slide-logo" aria-hidden="true">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <a href="#">View project <img src="/assets/Arrow-icon.png" alt="arrow" srcset=""></a>
+                  </div>
+
+                  <img src="/assets/Seperator.png" alt="img" class="slide-seprator">
+
+                  <div class="about-slide-col">
+                     <img src="/assets/consig.png" alt="" class="about-slide-logo">
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <a href="#">View project <img src="/assets/Arrow-icon.png" alt="arrow" aria-hidden="true"></a>
+                  </div>
+               </div>
+            </div>
+          </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-col footer-logo">
+        <a href="#">
+          <img src="/assets/HK-logo.svg" alt="" srcset="">
+        </a>
+      </div>
+      <div class="footer-col footer-social">
+        <h3>Social Media</h3>
+        <p>Connect via social media channels</p>
+        <ul>
+          <li><a href="#"><img src="/assets/X-logo.svg" alt="" srcset=""></a></li>
+          <li><a href="#"><img src="/assets/Insta.svg" alt="" srcset=""></a></li>
+          <li><a href="#"><img src="/assets/Facebook.svg" alt="" srcset=""></a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-email">
+        <h3>Email Address</h3>
+        <p>Send an Email with your inquiries</p>
+        <a href="mailto:hkhatib@gmail.com">hkhatib@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
