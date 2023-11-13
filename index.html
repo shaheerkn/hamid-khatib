@@ -42,7 +42,7 @@
         <p class="section-desc montserrat">Our mission is to support new creative ideas and young entrepreneurs with innovative business concepts. With investments in ventures like Consiglio lounge in Lebanon, Mentes, Biopharma in UAE, Autobuchs in Switzerland, and Khatib Jewelry in Istanbul, we prioritize honesty, reliability, and ethical business practices.</p>
         <p class="section-desc montserrat">We actively encourage creativity and progress in various sectors, aiming for positive changes and growth within the industry. Our dedication to these values has made us a significant figure in the investment world, inspiring and supporting aspiring entrepreneurs and investors.</p>
 
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper for-desktop">
           <div class="swiper-wrapper">
             <div class="swiper-slide about-slide">
                <h3>PERSONAL INVESTMENTS</h3>
@@ -65,15 +65,35 @@
 
             <div class="swiper-slide about-slide">
                <h3>PERSONAL INVESTMENTS</h3>
+               <div class="about-slide-container center">
+                  <div class="about-slide-col">
+                     <img src="assets/swiss.png" alt="" class="about-slide-logo">
+                      <p>Courses, Training, Conferences, Consulting & Industry led exhibitions in the fields of Finance, management, IT solutions and Islamic Finance.</p>
+                      <a href="https://www.swissbusinessacademy.com/">View project <img src="assets/Arrow-icon.png" alt="arrow" aria-hidden="true"></a>
+                  </div>
+               </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="swiper mySwiper for-mobile">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide about-slide">
+               <h3>PERSONAL INVESTMENTS</h3>
                <div class="about-slide-container">
                   <div class="about-slide-col">
                     <img src="assets/mentas.png" alt="" class="about-slide-logo" aria-hidden="true">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     <a href="#">View project <img src="assets/Arrow-icon.png" alt="arrow"></a>
                   </div>
+               </div>
+            </div>
 
-                  <img src="assets/Seperator.png" alt="img" class="slide-seprator">
-
+            <div class="swiper-slide about-slide">
+               <h3>PERSONAL INVESTMENTS</h3>
+               <div class="about-slide-container">
                   <div class="about-slide-col">
                      <img src="assets/consig.png" alt="" class="about-slide-logo">
                       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -81,10 +101,21 @@
                   </div>
                </div>
             </div>
+
+            <div class="swiper-slide about-slide">
+               <h3>PERSONAL INVESTMENTS</h3>
+               <div class="about-slide-container">
+                  <div class="about-slide-col">
+                      <img src="assets/swiss.png" alt="" class="about-slide-logo">
+                      <p>Courses, Training, Conferences, Consulting & Industry led exhibitions in the fields of Finance, management, IT solutions and Islamic Finance.</p>
+                      <a href="https://www.swissbusinessacademy.com/">View project <img src="assets/Arrow-icon.png" alt="arrow" aria-hidden="true"></a>
+                  </div>
+               </div>
+            </div>
           </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
   </main>
@@ -106,18 +137,19 @@
         </ul>
       </div>
       <div class="footer-col footer-email">
-        <h3>Email Address</h3>
+        <h3>Contact Info</h3>
         <p class="montserrat">Send an Email with your inquiries</p>
-        <a href="mailto:hkhatib@gmail.com" class="montserrat">hkhatib@gmail.com</a>
+        <a href="mailto:hkhatib@gmail.com" class="montserrat">business@hamidkhatib.com</a> <br> <br>
+        <a href="tel:+41 78 888 99 90" class="montserrat">+41 78 888 99 90</a> <br>
+        <p class="montserrat">Zürich Switzerland</p>
       </div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
-    let slider = document.querySelector('.mySwiper')
-    if (Swiper && slider ) {
-      new Swiper(slider, {
+    if (Swiper) {
+      new Swiper('.mySwiper', {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
